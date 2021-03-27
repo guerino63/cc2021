@@ -30,7 +30,7 @@ public class Team {
     
     @Override
     public String toString() {
-        return "Team["+id+"]\t Name:"+name+", City:"+city;
+        return String.format("Team[%03d] - \tName:%-30s, City:%-30s",id, name,city);
     }
     
     

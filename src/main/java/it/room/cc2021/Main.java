@@ -8,15 +8,16 @@ package it.room.cc2021;
 public class Main {
     public static StudioClassi studioclassi;
     public static StudioForm studioForm;
+    public static InputDialogs inputDialogs;
     /**
      * 
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Simulazione campionato di calcio 2021");
+        System.out.println( "Simulazione campionato di calcio 2021");
         studioclassi = new StudioClassi();
         studioclassi.init();
-        studioForm = new StudioForm();
+//        studioForm = new StudioForm();
         
     }
     
